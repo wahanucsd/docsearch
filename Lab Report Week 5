@@ -66,3 +66,5 @@ command-line options1 3.2
 Command: find . -perm -g+w,u+w
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%203.00.13%20AM.png)
 Explanation: This command could search the file which could be written by their owner and their group.
+
+![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%203.00.13%20AM.png)
