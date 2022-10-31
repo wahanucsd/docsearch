@@ -19,8 +19,8 @@ Explanation: This command will run file on every file in the directory.
 command-line option 1.3
 Command: find /tmp \( -type f -o -type d -o -type l \)
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.20.27%20AM.png)
-Explanation: This command could pass the three types- files, directories, and symbolic links- as a comman-separated
-list.
+Explanation: This command could pass the three types- files, directories, and symbolic links- as a 
+comman-separated list.
 
 
 
@@ -59,7 +59,8 @@ Explanation: This command could search the file which owner could read and write
 command-line options1 3.2
 Command: find . -perm -664
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.47.35%20AM.png)
-Explanation: This command could search the file which owner could read and write but others can read without other permission bits.
+Explanation: This command could search the file which owner could read and write but others can read without 
+other permission bits.
 
 
 command-line options1 3.2
