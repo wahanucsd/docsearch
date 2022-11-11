@@ -36,16 +36,15 @@ Command: find /tmp -name chapter-1.txt -type f -print | xargs /bin/rm -f
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.08.23%20AM.png)
 Explanation: This command will find the file named "chapter-1.txt" 
 in the directory and delete the file.
-This command is useful because when there are too many files, 
-it is very hard to find the file we want in the directory and
-delete this file.
+This command is useful. Because if there are too many files in the directory,
+it is hard to find the file we want to delete.
 
 command-line option 2.2
 Command: find / -name needle -print -quit
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.33.01%20AM.png)
 Explanation: This command could search the file called needle 
 and stop if the first one has been found.
-This command is useful. Vecause if there are too many files in the directory,
+This command is useful. Because if there are too many files in the directory,
 it is hard to find the first file that has the same name with the command.
 
 command-line option 2.3
@@ -53,7 +52,9 @@ Command: find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.40.29%20AM.png)
 Explanation: This command will find the file named "chapter-1.txt" 
 in the directory and delete the file.
-
+This command is useful because when there are too many files, 
+it is very hard to find the file we want in the directory and
+delete this file.
 
 
 
@@ -64,18 +65,21 @@ command-line option 3.1
 Command: find . -perm 664
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.44.54%20AM.png)
 Explanation: This command could search the file which owner could read
-and write but others only can read.
+and write but others only can read. This command is useful if we want to find different types of file when there
+are many files in the directory.
 
 
 command-line options1 3.2
 Command: find . -perm -664
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.47.35%20AM.png)
 Explanation: This command could search the file which owner could read 
-and write but others can read without other permission bits.
+and write but others can read without other permission bits. This command is useful if we want to find different types of file when there
+are many files in the directory.
 
 
 command-line options1 3.2
 Command: find . -perm -g+w,u+w
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%203.00.13%20AM.png)
 Explanation: This command could search the file which could be written 
-by their owner and their group.
+by their owner and their group. This command is useful if we want to find different types of file when there
+are many files in the directory.
