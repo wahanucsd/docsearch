@@ -7,6 +7,9 @@ Command: find /tmp -name chapter-1.txt -type f -print | xargs /bin/rm -f
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.08.23%20AM.png)
 Explanation: This command will find the file named "chapter-1.txt" 
 in the directory and delete the file.
+This command is useful because when there are too many files, 
+it is very hard to find the file we want in the directory and
+delete this file.
 
 
 
@@ -14,7 +17,7 @@ command-line option 1.2
 Command: find . -type f -exec file '{}' \;
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.12.41%20AM.png)
 Explanation: This command will run file on every file in the directory.
-
+This
 
 
 command-line option 1.3
