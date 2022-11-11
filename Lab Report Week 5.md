@@ -17,7 +17,7 @@ command-line option 1.2
 Command: find . -type f -exec file '{}' \;
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.12.41%20AM.png)
 Explanation: This command will run file on every file in the directory.
-This
+This command is useful because we could easily see every file with their name and directory.
 
 
 command-line option 1.3
