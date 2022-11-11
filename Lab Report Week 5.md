@@ -50,7 +50,7 @@ it is hard to find the first file that has the same name with the command.
 command-line option 2.3
 Command: find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f
 ![Image](https://github.com/wahanucsd/docsearch/blob/main/Screen%20Shot%202022-10-31%20at%202.40.29%20AM.png)
-Explanation: This command will find the file named "chapter-1.txt" 
+Explanation: This command will find the file named "core" 
 in the directory and delete the file.
 This command is useful because when there are too many files, 
 it is very hard to find the file we want in the directory and
